@@ -1,0 +1,21 @@
+﻿<Window x:Class="TestExercice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestExercice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300" FontSize="14" Background="#efeeec">
+
+
+    <Grid Background="#55b7ba">
+        <ComboBox SelectedIndex="0" HorizontalAlignment="Left" Margin="50.113,170.915,0,0" VerticalAlignment="Top" Width="200" Name="DeviseDest"/>
+        <ComboBox SelectedIndex="0" HorizontalAlignment="Left" Margin="50.113,125.546,0,0" VerticalAlignment="Top" Width="200" Name="DeviseSrc"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="137.446,86.11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="montant"/>
+        <Button Content="Convertir" HorizontalAlignment="Left" Margin="102.113,228.06,0,0" VerticalAlignment="Top" Width="75" Name="Convertir" Click="Conver"/>
+        <Label Content="" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" HorizontalAlignment="Left" Margin="130.113,273.606,0,0" VerticalAlignment="Top" Name="Affichage"/>
+        <Label Content="Resultat :" FontSize="15" Foreground="#086165" FontWeight="Bold" HorizontalAlignment="Left" Margin="31.584,273.606,0,0" VerticalAlignment="Top"/>
+        <Label Content="Montant :" FontSize="15" Foreground="#086165" FontWeight="Bold" HorizontalAlignment="Left" Margin="41.364,79.16,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
